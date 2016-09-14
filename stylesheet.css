@@ -1,0 +1,126 @@
+* {
+  color: white;
+  font-family: sans-serif;
+}
+
+.panel * {
+  color: black;
+}
+html, body {
+  margin: 0px;
+  width: 100%;
+  padding: 0px;
+  background: black;
+}
+
+#head {
+  height: 814px;
+  background-image: url('images\\bgmain.png');
+  background-size: cover;;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  background-color: black;
+  padding: 50px;
+}
+
+#greeting, #info {
+  margin: 0 auto;
+  text-align: center;
+  text-shadow: 0px 0px 20px black,
+               0px 0px 25px #E91E63;
+}
+
+#pre {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.student {
+  height: 900px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.panel {
+  width: 900px;
+  height: 500px;
+  background: white;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 5px 5px 10px black;
+  text-align: center;
+}
+
+.frontImg {
+  width: 500px;
+  height: 500px;
+  margin: 0px;
+  float: left;
+}
+
+.talent {
+  margin: 0px;
+}
+
+.studentBio {
+  text-align: left;
+  text-indent: 30px;
+  padding: 10px;
+}
+
+#chihiro {
+  background-image: url('images\\FujisakiBG.png');
+}
+#aoi {
+  background-image: url('images\\AsahinaBG.png');
+}
+#junko {
+  background-image: url('images\\EnoshimaBG.png');
+}
+#toko {
+  background-image: url('images\\FukawaBG.png');
+}
+#yasuhiro {
+  background-image: url('images\\HagakureBG.png');
+}
+#mukuro {
+  background-image: url('images\\IkusabaBG.png');
+}
+#kiyotaka {
+  background-image: url('images\\IshimaruBG.png');
+}
+#kyoko {
+  background-image: url('images\\KirigiriBG.png');
+}
+#leon {
+  background-image: url('images\\KuwataBG.png');
+}
+#celestia {
+  background-image: url('images\\LudenbergBG.png');
+}
+#sayaka {
+  background-image: url('images\\MaizonoBG.png');
+}
+#makoto {
+  background-image: url('images\\NaegiBG.png');
+}
+#mondo {
+  background-image: url('images\\OwadaBG.png');
+}
+#sakura {
+  background-image: url('images\\OgamiBG.png');
+}
+#byakuya {
+  background-image: url('images\\TogamiBG.png');
+}
+#hifumi {
+  background-image: url('images\\YamadaBG.png');
+}
