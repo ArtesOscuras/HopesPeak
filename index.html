@@ -9,6 +9,7 @@
     <meta property="og:image" content="https://artesoscuras.github.io/HopesPeak/images/bgmain.png"/>
     <meta property="og:url" content="https://artesoscuras.github.io/HopesPeak/"/>
     <meta property="og:description" content="Hope's Peak Academy Class 78. Parody website."/>
+    <meta property="fb:app_id" content="1784715045109172"/>
     <title>Class 78 of Hope's Peak Academy</title>
     <link rel="shorcut icon" href="images\icon.png"/>
     <link rel="stylesheet" href="stylesheet.css"/>
@@ -219,6 +220,28 @@
         </div>
       </div>
     </div>
-  <script src="script.js"></script>
+    <div
+      class="fb-like"
+      data-share="true"
+      data-width="450"
+      data-show-faces="true">
+    </div>
+    <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '1784715045109172',
+        xfbml      : true,
+        version    : 'v2.7'
+      });
+    };
+
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "//connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+  </script>
   </body>
 </html>
